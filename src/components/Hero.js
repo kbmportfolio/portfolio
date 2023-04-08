@@ -1,28 +1,37 @@
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Seattle from '../img/seattle.jpg';
-import Kevan from '../img/kevanphoto.jpeg'
+// import Seattle from '../img/seattle.jpg';
+import Kevan from './kevanphoto.png';
+import Tw from './Tw';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 
 function Hero() {
   return (
-    <Container fluid="md" className='containerimg'>
+    <Container fluid="md" className='containerimg d-flex p-2'>
       <Row className="justify-content-md-center">
-        <Col md> <img href={Kevan} alt="seattlebg" style={{ width: '400px', }} />
+        <Col md className="justify-content-md-center" > 
+        <img src={Kevan} alt="kevan" className="kpic" style={{ width: '350px' }} />
         
+      
         </Col>
-        <Col md>
+        <Col md className="justify-content-md-center">
+        
         <p className='bio'>
-
+            <Tw></Tw>
+        
             
-        <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true">|</span></p>
-        Kevan is a talented web developer based in Seattle, with a passion for creating intuitive and visually appealing websites. He has over five years of experience in front-end and back-end web development, with a deep understanding of HTML, CSS, JavaScript, PHP, and MySQL.
+        I am an aspiring web developer based in Seattle, with a passion for creating intuitive and visually appealing websites. I have experience with HTML, CSS, JavaScript, React JS, AWS Cloud Services, MongoDB, and Bootstrap. 
 <br></br><br></br>
-Kevan is a creative problem solver who loves to collaborate with clients and team members to build websites that meet their unique needs and goals. He stays up-to-date with the latest web development trends and technologies, ensuring that his work is always cutting-edge and effective.
+When I am not coding I enjoy hiking in the beautiful Pacific Northwest, biking, and spending time with friends and family.
 <br></br><br></br>
-When he's not coding, Kevan enjoys hiking in the beautiful Pacific Northwest, exploring Seattle's vibrant food scene, and spending time with his friends and family.
+
+       
+        <a href="www.linkedin.com/in/kevanmeratinia"> <i class="bi-github hero-icon"></i></a> <a href="www.linkedin.com/in/kevanmeratinia"
+        ><i class="bi-linkedin hero-icon"></i></a>
         </p>
         </Col>
       </Row>
