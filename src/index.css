@@ -269,6 +269,8 @@ label {
   margin: auto;
   max-width: 300px;
   margin-top: 40px;
+  height: auto;
+  
 
 
  
@@ -283,4 +285,25 @@ label {
   
 }
 
+
+
+.cardContainer {
+  border: 2px dashed #2e2cc2;
+  border-radius: 1rem;
+  /* background: #0d0160f3; */
+  margin: auto;
+  max-width: 400px;
+  margin-top: 40px;
+  height: auto;
+  /* border-bottom: none; */
+
+
+ 
+}
+
 } 
+
+.card {
+  border: none!important;
+  /* margin-top: 30px!important; */
+}
