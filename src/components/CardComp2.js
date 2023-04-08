@@ -9,7 +9,7 @@ function CardComp2() {
     <Card fluid="md" className="cardStyle" style={{ width: '18rem', height: '28rem', background: 'none', }}>
       <Card.Img className="projectImage" variant="top" src={Makeup} />
       <Card.Body>
-        <Card.Title>Maekup Search</Card.Title>
+        <Card.Title>Makeup Search</Card.Title>
         <Card.Text>
          Makeup Search App using GET API
         </Card.Text>
