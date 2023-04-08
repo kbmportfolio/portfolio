@@ -29,7 +29,7 @@ background: -webkit-linear-gradient(0deg, #2b32b2 0%, #000000 100%);
 background: linear-gradient(0deg, #2b32b2 0%, #000000 100% ); */
 
 /* background: linear-gradient(0deg, #000000 30%, #2b32b2 60%, #000000 40%); */
-background: linear-gradient(0deg, #000000 20%, #2b32b2 60%, #000000);
+background: linear-gradient(0deg, #040057 20%, #2b32b2 60%, #040057);
 
 /* background-image: radial-gradient(#0042ea 1px, transparent 1px);
 background-size: 13px 13px;
@@ -160,6 +160,11 @@ h1 {
  
   
   
+}
+
+
+.footerbg {
+  background-color: #040057!important;
 }
 
 .twh1 {

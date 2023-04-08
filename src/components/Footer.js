@@ -7,7 +7,7 @@ function Footer() {
     return (
 <div class="justify-content-md-center container my-5">
 
-  <footer class="bg-black text-center text-white">
+  <footer class="text-center text-white footerbg">
   {/* <!-- Grid container --> */}
   <div class="container p-4 pb-0">
     {/* <!-- Section: Social media --> */}
@@ -19,7 +19,7 @@ function Footer() {
         ><i class="bi-github ficon"></i></a>
 
       {/* <!-- Github --> */}
-      <a class="btn btn-floating m-1" href="www.linkedin.com/in/kevanmeratinia" role="button"
+      <a class="btn btn-floating m-1" href="https://www.linkedin.com/in/kevanmeratinia" role="button"
         ><i class="bi-linkedin ficon"></i>
       </a>
     </section>
