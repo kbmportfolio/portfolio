@@ -5,9 +5,55 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: linear-gradient( rgba(32, 2, 131, 0.5), rgba(0, 0, 0, 0.5) ), url('./img/seattle.jpg'); */
+  /* background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url('./img/seattle.jpg'); */
+/*   
+  background-size: cover; */
+  
+  background: #2c3e50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #094f7e, #123d69); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.bio {
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  background-color:#094f7ea1;
+  border-radius: 1rem;
+  border: 2px dashed rgb(255, 255, 255);
+}
+
+.brand {
+  color: #ffffff;
+}
+
+.navlink {
+  color: #1cb5e0;
+}
+
+.containerimg {
+
+  /* background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url('./img/seattle.jpg') ; */
+ 
+  background-size: cover;
+  background-position: 50px;
+  /* border: 2px dashed rgb(255, 255, 255); */
+  /* border-radius: 1rem; */
+  
+  /* background: linear-gradient(to right, #0f35ce, #000046); */
+}
+
+
+.cprojects {
+
+  background-color: #000f1e;
+  border: 2px dashed rgb(255, 255, 255);
+  margin-top: 30px;
 }
