@@ -92,7 +92,7 @@ code {
 
 .containerimg {
   border-radius: 1rem;
-  background-size: contain;
+  background-size: cover;
   background-image: linear-gradient( #2b32b2, #2b32b2b0, #2931d1  ), url('./mountain.jpg') ;
   /* background-image: linear-gradient( #2b32b2c4, #2b32b2 ), url('./mountain.jpg') ; */
   /* background: url("../images/bg-registration-form-7.jpg") ;
@@ -103,6 +103,7 @@ code {
   /* border-radius: 1rem; */
   
   /* background: linear-gradient(to right, #0f35ce, #000046); */
+
 }
 
 
@@ -258,6 +259,7 @@ label {
 @media only screen and (max-width: 600px){
  
   .kpic {
+    margin-top:30px;
     width: 100px;
    
   }
@@ -288,7 +290,11 @@ label {
 .containerimg {
   border-radius: 0px;
   background-size: cover;
-  background-position: 200px;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  height: 900px;
+  background-repeat: no-repeat;
 
 }
 
