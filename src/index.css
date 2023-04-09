@@ -74,7 +74,9 @@ code {
 
 .dcolor {
   color: #2e2cc2;
-  margin-right: 2px;
+  margin-right: 3px;
+  padding-top: 5px!important;
+  
 }
 
 .navlink {
@@ -89,8 +91,10 @@ code {
 }
 
 .containerimg {
-
-  /* background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url('./img/seattle.jpg') ; */
+  border-radius: 1rem;
+  background-size: contain;
+  background-image: linear-gradient( #2b32b2, #2b32b2b0, #2931d1  ), url('./mountain.jpg') ;
+  /* background-image: linear-gradient( #2b32b2c4, #2b32b2 ), url('./mountain.jpg') ; */
   /* background: url("../images/bg-registration-form-7.jpg") ;
   background-size: cover;
   background-position: 1000px; */
@@ -279,6 +283,13 @@ label {
 
 
  
+}
+
+.containerimg {
+  border-radius: 0px;
+  background-size: cover;
+  background-position: 200px;
+
 }
 
 
