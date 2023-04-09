@@ -264,6 +264,21 @@ label {
    
   }
 
+  .containerimg {
+    border-radius: 1rem;
+    background-size: cover;
+    background-image: none;
+    /* background-image: linear-gradient( #2b32b2c4, #2b32b2 ), url('./mountain.jpg') ; */
+    /* background: url("../images/bg-registration-form-7.jpg") ;
+    background-size: cover;
+    background-position: 1000px; */
+   
+    /* border: 2px dashed rgb(0, 132, 255); */
+    /* border-radius: 1rem; */
+    
+    /* background: linear-gradient(to right, #0f35ce, #000046); */
+  
+  }
   
 .form-wrapper {
   
