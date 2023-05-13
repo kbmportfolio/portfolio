@@ -95,7 +95,9 @@ code {
 .containerimg {
   border-radius: 1rem;
   background-size: cover;
-  background-image: linear-gradient( #111abc, #1219a3bc, #2931d1  ), url('./mountain.jpg') ;
+ background-image: linear-gradient( #1219a3bc 20%, #1219a3bc 30%, #2931d1  );
+
+  /* background-image: linear-gradient( #111abc, #1219a3bc, #2931d1  ), url('./mountain.jpg') ; */
   /* background-image: linear-gradient( #2b32b2, #2b32b2b0, #2931d1  ), url('./mountain.jpg') ; */
   /* background-image: linear-gradient( #2b32b2c4, #2b32b2 ), url('./mountain.jpg') ; */
   /* background: url("../images/bg-registration-form-7.jpg") ;
@@ -165,7 +167,7 @@ h1 {
 .projectImage {
   
   margin:30px;
- 
+ height: auto;
   
   
 }
@@ -268,9 +270,15 @@ label {
   }
 
   .containerimg {
+    /* border-radius: 1rem;
+    background-size: cover;
+    background-image: none; */
     border-radius: 1rem;
     background-size: cover;
-    background-image: none;
+    background: none;
+    
+    /* background-image: linear-gradient( #111abc, #1219a3bc, #2931d1  ), url('./mountain.jpg') ; */
+
     /* background-image: linear-gradient( #2b32b2c4, #2b32b2 ), url('./mountain.jpg') ; */
     /* background: url("../images/bg-registration-form-7.jpg") ;
     background-size: cover;
@@ -313,7 +321,7 @@ label {
   background-origin: padding-box;
   height: 900px;
   background-repeat: no-repeat;
-
+  
 }
 
 
@@ -339,6 +347,10 @@ label {
 
 
  
+}
+
+span {
+  font-size: 1em;
 }
 
 } 

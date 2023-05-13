@@ -7,6 +7,7 @@ import Kevan from './kevanphoto.png';
 import Tw from './Tw';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+import TypeA from './TypeA';
 
 
 function Hero() {
@@ -21,8 +22,9 @@ function Hero() {
         <Col md className="justify-content-md-center">
         
         <p className='bio'>
-            <Tw></Tw>
-        
+            {/* <Tw></Tw> */}
+            <TypeA />
+            <br></br><br></br>
             
         I am an aspiring web developer based in Seattle, with a passion for creating intuitive and visually appealing websites. I have experience with HTML, CSS, JavaScript, React JS, AWS Cloud Services, MongoDB, and Bootstrap. 
 <br></br><br></br>

@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 import CardComp from './CardComp';
 import CardComp2 from './CardComp2';
+import CardComp3 from './CardComp3';
 
 function Projects() {
     return (
@@ -17,6 +18,11 @@ function Projects() {
             </Col>
         <Col>
         <CardComp2></CardComp2>
+        
+        </Col>
+
+        <Col>
+        <CardComp3></CardComp3>
         
         </Col>
         
